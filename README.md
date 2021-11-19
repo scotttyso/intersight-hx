@@ -1,4 +1,4 @@
-Directions for building an HX cluster using Terraform
+### Directions for building an HX cluster using Terraform
 
 1) Edit the terraform.tfvars file and change the api_key variable to match yours. Create a file called SecretKey.txt file and put your secret key generated from Intersight there (see api_key below).
 
