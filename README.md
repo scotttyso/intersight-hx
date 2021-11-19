@@ -7,9 +7,9 @@
 3) Edit any of the other variables in the terraform.tfvars to customize your deployment. A few key ones are cluster_name, and the server_names that need to match the server name in your Intersight Operate>Servers tab exactly.
 
 Execute your Terraform plan using the following commands:
-    terraform init
-    terraform plan
-    terraform apply
+   - terraform init
+   - terraform plan
+   - terraform apply
 
 ### API Key
 To generate an API key in your intersight got to Gear>Settings>API Keys>Generate API Key using version 2. After clicking Generate, you'll be presented with the API key and Secret Key. Put the Secret Key into the file SecretKey.txt
