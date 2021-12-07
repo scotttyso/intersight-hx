@@ -10,9 +10,9 @@ terraform {
 }
 
 provider "intersight" {
-  apikey    = var.api_key
-  secretkey = var.api_key_file
-  endpoint  = var.api_endpoint
+  apikey    = var.apikey
+  secretkey = var.secretkey
+  endpoint  = var.endpoint
 }
 
 # Retrieve the Intersight organization moid

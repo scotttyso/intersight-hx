@@ -1,14 +1,16 @@
-variable "api_key" {
+variable "apikey" {
   type        = string
   description = "Enter the API key string for access to the Intersight API"
+  sensitive   = true
 }
 
-variable "api_key_file" {
+variable "secretkey" {
   type        = string
   description = "Enter the path to the API key file downloaded from Cisco Intersight for API access"
+  sensitive   = true
 }
 
-variable "api_endpoint" {
+variable "endpoint" {
   type        = string
   description = "Enter the URL for the Cisco Intersight API"
   default     = "https://www.intersight.com"

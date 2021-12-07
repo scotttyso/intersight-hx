@@ -1,6 +1,6 @@
 # API access
 api_key      = "59af0e11f11aa10001678016/59af0ceef11aa100016748f0/5fad6f147564612d3348b2cb"
-api_key_file = "SecretKey.txt"
+api_key_file = "../../..SecretKey.txt"
 api_endpoint = "https://www.intersight.com"
 
 # Hyperflex Cluster
@@ -63,12 +63,12 @@ mgmt_netmask  = "255.255.255.0"
 mgmt_gateway  = "10.29.133.1"
 
 # Time
-timezone = "America/Los_Angeles"
-ntp      = ["ntp1.hx.lab.cisco.com", "ntp2.hx.lab.cisco.com"]
+timezone = "America/New_York"
+ntp      = ["10.101.128.15", "10.101.128.16"]
 
 # DNS
-dns_domain = "hx.lab.cisco.com"
-dns        = ["10.29.133.110"]
+dns_domain = "rich.ciscolabs.cisco.com"
+dns        = ["10.101.128.15", "10.101.128.16"]
 
 # UCSM KVM IP
 kvm_ip_start = "10.29.133.242"
@@ -77,7 +77,7 @@ kvm_netmask  = "255.255.255.0"
 kvm_gateway  = "10.29.133.1"
 
 # VCenter
-vcenter_hostname   = "vcenter.hx.lab.cisco.com"
+vcenter_hostname   = "vcenter.rich.ciscolabs.com"
 vcenter_username   = "administrator@vsphere.local"
 vcenter_password   = "!Q2w3e4r"
 vcenter_datacenter = "Datacenter"
